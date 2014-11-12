@@ -26,7 +26,7 @@ describe('Binary Search Tree', function() {
     }
   });
 
-  it('should return an pre-order array of data', function() {
+  it('should return a pre-order array of data', function() {
     var preOrder = [4, 2, 1, 3, 6, 5, 7];
     arr = bst.preOrder();
     expect(Array.isArray(arr)).to.equal(true);
@@ -37,7 +37,7 @@ describe('Binary Search Tree', function() {
     }
   });
 
-  it('should return an post-order array of data', function() {
+  it('should return a post-order array of data', function() {
     var postOrder = [1, 3, 2, 5, 7, 6, 4];
     arr = bst.postOrder();
     expect(Array.isArray(arr)).to.equal(true);
@@ -121,7 +121,7 @@ describe('Binary Search Tree', function() {
     expect(bst.getNumberOfNodes()).to.equal(7);
   });
 
-  it('should return an pre-order array of edges', function() {
+  it('should return a pre-order array of edges', function() {
     var preOrder = [1, 3, 5, 7];
     arr = bst.preOrderEdges();
     expect(Array.isArray(arr)).to.equal(true);
