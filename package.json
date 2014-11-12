@@ -4,7 +4,7 @@
   "description": "Data Structures - Binary Trees assignment.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/grunt-cli/bin/grunt"
+    "test": "node_modules/grunt-cli/bin/grunt && node index"
   },
   "repository": {
     "type": "git",
